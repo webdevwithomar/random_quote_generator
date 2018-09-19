@@ -2,9 +2,12 @@
 
 ## What Does This Quote Generator Do ?
 
-This Quote generator randomly generates some famous Quotes.
+1. This Quote generator randomly generates some famous Quotes.
+2. The user can click a button to see the next quote.
+3. Changes Quotes automaticall after 3.5 Seconds.
+4. As the quote changes, the bakcground color also changes.
 
-## What Technologies Have Used to Make This Application ?
+## What Technologies Have Been Used to Make This Application ?
 
 HTML, CSS & JavaScript
 

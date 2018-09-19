@@ -67,10 +67,11 @@ function printQuote () {
   }
   html += '</p>';
 
+  // getRandomColor function to generate a random color
   function getRandomColor () {
     function generateRandomColor () {
-      return Math.floor(Math.random() * 256); // Generates a random number from 0 to 256
-    }
+      return Math.floor(Math.random() * 256);
+    } // Generates a random number from 0 to 256
     var r = generateRandomColor (); // for red value
     var g = generateRandomColor (); // for green value
     var b = generateRandomColor (); // for blue value
@@ -79,7 +80,7 @@ function printQuote () {
   }
   
   document.getElementById('quote-box').innerHTML = html; // Prints the string to the DOM
-  document.getElementById('body').style.backgroundColor = getRandomColor();
+  document.getElementById('body').style.backgroundColor = getRandomColor(); // Changes the background color of quote
 }
 
 setInterval(printQuote, 3500);
