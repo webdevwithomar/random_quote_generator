@@ -83,7 +83,7 @@ function printQuote () {
   document.getElementById('body').style.backgroundColor = getRandomColor(); // Changes the background color of quote
 }
 
-setInterval(printQuote, 2000);
+setInterval(printQuote, 20000);
 
 /*
   This is a button. When the user clicks on it, it calls the printQuote
