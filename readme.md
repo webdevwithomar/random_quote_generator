@@ -10,7 +10,3 @@
 ## What Technologies Have Been Used to Make This Application ?
 
 HTML, CSS & JavaScript
-
-## From Where Did You Get The Idea About Making This App ?
-
-From TeamTreehouse Techdegree Course.
